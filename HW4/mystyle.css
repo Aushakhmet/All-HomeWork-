@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
+h1 {
+    color: red;
+    font-family: Montserrat;
+}
+h2 {
+    color: orange;
+}
+h3 {
+    color: yellow;
+}
+h4 {
+    color: green;
+}
+h5 {
+    color: aqua;
+}
+h6 {
+    color: purple;
+}
+h2, h3, h4, h5, h6 {
+    font-family: Times New Roman;
+}
+p1, p2, p3{
+    color: white;
+}
+
+p1 i {
+    color: yellow;
+}
+p1 span {
+    color: red;
+    font-weight: 700;
+}
+/* помимо спана можно сделать b так как он по умолчанию ставит font-weight: 700
+p1 b {
+    color: red;
+}*/
+img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p2 b {
+    color: aqua;
+}
+p2 i {
+    color: green;
+}
+p3 i {
+    color: purple;
+}
+p3 b {
+    color: orange;
+}
