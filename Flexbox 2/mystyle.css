@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    /*align-items: flex-start; */
+    width: 865px;
+    gap: 80px;
+    justify-content: space-between;
+    /*background-color: gray;*/
+}
+
+.card {
+    flex-basis: 235px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.title {
+    color: green;
+    font-weight: 700;
+}
