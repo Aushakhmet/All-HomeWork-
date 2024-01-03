@@ -1,55 +1,83 @@
-@import url(https://fonts.googleapis.com/css2?family=Montserrat&display=swap);
-h1 {
-    color: red;
-    font-family: Montserrat;
-}
-h2 {
-    color: orange;
-}
-h3 {
-    color: yellow;
-}
-h4 {
-    color: green;
-}
-h5 {
-    color: aqua;
-}
-h6 {
-    color: purple;
-}
-h2, h3, h4, h5, h6 {
-    font-family: Times New Roman;
-}
-p1, p2, p3{
-    color: white;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    background-color: #000000;
+    width: 1920px;
+    height: 2473px;
 }
 
-p1 i {
-    color: yellow;
+h1 {
+    color: #EB2A2A;
+    font-family: Montserrat;
+    font-size: 96px;
+    font-weight: 400;
 }
-p1 span {
-    color: red;
+
+h2 {
+    color: #ED9B20;
+    font-size: 64px;
+}
+
+h3 {
+    color: #E7C61B;
+    font-size: 48px;
+}
+
+h4 {
+    color: #35C91C;
+    font-size: 40px;
+}
+
+h5 {
+    color: #13B5CB;
+    font-size: 36px;
+}
+
+h6 {
+    color: #B53CDF;
+    font-size: 32px;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: Times New Roman;
+    font-weight: 700;
+}
+
+.text1, .text2, .text3{
+    color: #FFFFFF;
+    font-size: 36px;
+}
+
+.text1 {
+    margin-top: 74px;
+    
+}
+
+.text1 i {
+    color: #E7C61B;
+}
+
+.text1 span {
+    color: #EB2A2A;
     font-weight: 700;
 }
 /* помимо спана можно сделать b так как он по умолчанию ставит font-weight: 700
 p1 b {
     color: red;
 }*/
-img {
-    margin-top: 20px;
-    margin-bottom: 20px;
+
+.text2 b {
+    color: #13B5CB;
 }
 
-p2 b {
-    color: aqua;
+.text2 i {
+    color: #35C91C;;
 }
-p2 i {
-    color: green;
+
+.text3 i {
+    color: #B53BDF;
 }
-p3 i {
-    color: purple;
-}
-p3 b {
-    color: orange;
+
+.text3 b {
+    color: #ED9B20;
 }
