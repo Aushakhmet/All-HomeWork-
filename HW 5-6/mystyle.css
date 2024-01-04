@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&family=Montserrat&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Heebo", sans-serif;
+}
+
+.All {
+    display: block;
+    height: 2011px;
+    width: 1920px;
+    margin: auto;
+}
+
+.part1 {
+    display: block;
+    height: 589px;
+    width: 510px;
+    margin: auto;
+}
+
+img {
+    display: block;
+    margin: 50px auto;
+}
+
+h1 {
+    display: block;
+    text-align: left;
+    font-family: "Heebo", sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+p {
+    font-family: "Heebo", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 38px;
+}
+
+button {
+    display: block;
+    border-radius: 2px; 
+    border: solid #ffffff;
+    width: 208px;
+    height: 47px;
+    background-color: #FF6464;
+    color: #FFFFFF;
+    font-family: "Heebo", sans-serif;
+    font-size: 20px;
+    margin: auto;
+}
+
+.part2 {
+    display: block;
+    background-color: #EDF7FA;
+    margin-top: 60px;
+    height: 407px;
+    width: 1920px;
+}
+
+.main {
+    display: block;
+    height: 347px;
+    width: 510px;
+    margin: auto;
+}
+
+.block1 .title {
+    text-align: center;
+    font-family: "Heebo", sans-serif;
+    font-size: 22px;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+
+.block2 {
+    background-color: #FFFFFF;
+    font-family: "Heebo", sans-serif;
+    height: 295px;
+    width: 510px;
+}
+
+.block2 h2 {
+    display: block;
+    color: var(--Dark-Color, #21243D);
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    padding: 24px 26px 60px 28px;
+}
+
+.block2 span {
+    display: block;
+    width: 75.646px;
+    height: 25px;
+    border-radius: 16px;
+    background-color: #142850;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+    margin-left: 28.06px;
+    margin-bottom: 17px;
+}
+
+.block2 .text {
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 28.06px;
+    margin-right: 32.94px;
+    margin-bottom: 52px;
+}
+
+.part3 .footer {
+    display: block;
+    width: 510px;
+    height: 724px;
+    margin: 0 auto;
+}
+
+.footer p {
+    text-align: center;
+    color: var(--Dark-Color, #21243D);
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 40px;
+}
+
+.footer svg {
+    stroke-width: 1px;
+    stroke: var(--Gray-5, #E0E0E0);
+}
+
+.law {
+    display: block;
+    text-align: center;
+    color: #21243D;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 40px;
+}
+
+
+
